@@ -35,3 +35,11 @@ server {
     }
 }
 ```
+После обновления конфигурации, Nginx нужно перезапустить командой:
+```
+nginx -s reload
+```
+Далее развертываем mysql-server командой 
+```
+sudo apt-get install mysql-server
+```
